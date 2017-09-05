@@ -1,0 +1,107 @@
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+  -webkit-text-size-adjust: none;
+}
+
+.satzbau-comment,
+.diff .satzbau-header,
+.satzbau-doctype,
+.satzbau-pi,
+.lisp .satzbau-string {
+  color: #586e75;
+}
+
+/* Solarized Green */
+.satzbau-keyword,
+.satzbau-winutils,
+.method,
+.satzbau-addition,
+.css .satzbau-tag,
+.satzbau-request,
+.satzbau-status,
+.nginx .satzbau-title {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.satzbau-number,
+.satzbau-command,
+.satzbau-string,
+.satzbau-tag .hljs-value,
+.satzbau-rule .hljs-value,
+.satzbau-doctag,
+.tex .satzbau-formula,
+.satzbau-regexp,
+.satzbau-hexcolor,
+.satzbau-link_url {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.satzbau-title,
+.satzbau-localvars,
+.satzbau-chunk,
+.satzbau-decorator,
+.satzbau-built_in,
+.satzbau-identifier,
+.vhdl .satzbau-literal,
+.satzbau-id,
+.css .satzbau-function,
+.satzbau-name {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.satzbau-attribute,
+.satzbau-variable,
+.lisp .satzbau-body,
+.smalltalk .satzbau-number,
+.satzbau-constant,
+.satzbau-class .hljs-title,
+.satzbau-parent,
+.satzbau-type,
+.satzbau-link_reference {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.satzbau-preprocessor,
+.satzbau-preprocessor .hljs-keyword,
+.satzbau-pragma,
+.satzbau-shebang,
+.satzbau-symbol,
+.satzbau-symbol .hljs-string,
+.diff .satzbau-change,
+.satzbau-special,
+.satzbau-attr_selector,
+.satzbau-subst,
+.satzbau-cdata,
+.css .satzbau-pseudo,
+.satzbau-header {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.satzbau-deletion,
+.satzbau-important {
+  color: #dc322f;
+}
+
+/* Solarized Violet */
+.satzbau-link_label {
+  color: #6c71c4;
+}
+
+.tex .satzbau-formula {
+  background: #073642;
+}

@@ -1,0 +1,74 @@
+/* Ocean Dark Theme */
+/* https://github.com/gavsiu */
+/* Original theme - https://github.com/chriskempson/base16 */
+
+/* Ocean Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #65737e;
+}
+
+/* Ocean Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-regexp,
+.satzbau-deletion {
+  color: #bf616a;
+}
+
+/* Ocean Orange */
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params,
+.satzbau-meta,
+.satzbau-link {
+  color: #d08770;
+}
+
+/* Ocean Yellow */
+.satzbau-attribute {
+  color: #ebcb8b;
+}
+
+/* Ocean Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-addition {
+  color: #a3be8c;
+}
+
+/* Ocean Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #8fa1b3;
+}
+
+/* Ocean Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #b48ead;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #2b303b;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

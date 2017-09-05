@@ -1,0 +1,71 @@
+/**
+ * GitHub Gist Theme
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.satzbau {
+  display: block;
+  background: white;
+  padding: 0.5em;
+  color: #333333;
+  overflow-x: auto;
+}
+
+.satzbau-comment,
+.satzbau-meta {
+  color: #969896;
+}
+
+.satzbau-string,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-strong,
+.satzbau-emphasis,
+.satzbau-quote {
+  color: #df5000;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-type {
+  color: #a71d5d;
+}
+
+.satzbau-literal,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-attribute {
+  color: #0086b3;
+}
+
+.satzbau-section,
+.satzbau-name {
+  color: #63a35c;
+}
+
+.satzbau-tag {
+  color: #333333;
+}
+
+.satzbau-title,
+.satzbau-attr,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo {
+  color: #795da3;
+}
+
+.satzbau-addition {
+  color: #55a532;
+  background-color: #eaffea;
+}
+
+.satzbau-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+
+.satzbau-link {
+  text-decoration: underline;
+}

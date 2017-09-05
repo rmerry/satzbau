@@ -1,0 +1,63 @@
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-section,
+.satzbau-link {
+  color: white;
+}
+
+.satzbau,
+.satzbau-subst {
+  color: #ddd;
+}
+
+.satzbau-string,
+.satzbau-title,
+.satzbau-name,
+.satzbau-type,
+.satzbau-attribute,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-built_in,
+.satzbau-addition,
+.satzbau-variable,
+.satzbau-template-tag,
+.satzbau-template-variable {
+  color: #d88;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-deletion,
+.satzbau-meta {
+  color: #777;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-title,
+.satzbau-section,
+.satzbau-doctag,
+.satzbau-type,
+.satzbau-name,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

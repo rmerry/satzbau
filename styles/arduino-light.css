@@ -1,0 +1,88 @@
+/*
+
+Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #FFFFFF;
+}
+
+.satzbau,
+.satzbau-subst {
+  color: #434f54;
+}
+
+.satzbau-keyword,
+.satzbau-attribute,
+.satzbau-selector-tag,
+.satzbau-doctag,
+.satzbau-name {
+  color: #00979D;
+}
+
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-bullet,
+.satzbau-code,
+.satzbau-addition {
+  color: #D35400;
+}
+
+.satzbau-regexp,
+.satzbau-symbol,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-link,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo {
+  color: #00979D;
+}
+
+.satzbau-type,
+.satzbau-string,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-quote,
+.satzbau-template-tag,
+.satzbau-deletion {
+  color: #005C5F;
+}
+
+.satzbau-title,
+.satzbau-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.satzbau-comment {
+  color: rgba(149,165,166,.8);
+}
+
+.satzbau-meta-keyword {
+  color: #728E00;
+}
+
+.satzbau-meta {
+  color: #728E00;
+  color: #434f54;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-function {
+  color: #728E00;
+}
+
+.satzbau-number {
+  color: #8A7B52;  
+}

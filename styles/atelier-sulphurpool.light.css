@@ -1,0 +1,94 @@
+/* Base16 Atelier Sulphurpool Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.satzbau-comment {
+  color: #6b7394;
+}
+
+/* Atelier-Sulphurpool Red */
+.satzbau-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-regexp,
+.satzbau-name,
+.ruby .satzbau-constant,
+.xml .satzbau-tag .hljs-title,
+.xml .satzbau-pi,
+.xml .satzbau-doctype,
+.html .satzbau-doctype,
+.css .satzbau-id,
+.css .satzbau-class,
+.css .satzbau-pseudo {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.satzbau-number,
+.satzbau-preprocessor,
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-params,
+.satzbau-constant {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Yellow */
+.ruby .satzbau-class .hljs-title,
+.css .satzbau-rule .hljs-attribute {
+  color: #c08b30;
+}
+
+/* Atelier-Sulphurpool Green */
+.satzbau-string,
+.satzbau-value,
+.satzbau-inheritance,
+.satzbau-header,
+.ruby .satzbau-symbol,
+.xml .satzbau-cdata {
+  color: #ac9739;
+}
+
+/* Atelier-Sulphurpool Aqua */
+.satzbau-title,
+.css .satzbau-hexcolor {
+  color: #22a2c9;
+}
+
+/* Atelier-Sulphurpool Blue */
+.satzbau-function,
+.python .satzbau-decorator,
+.python .satzbau-title,
+.ruby .satzbau-function .hljs-title,
+.ruby .satzbau-title .hljs-keyword,
+.perl .satzbau-sub,
+.javascript .satzbau-title,
+.coffeescript .satzbau-title {
+  color: #3d8fd1;
+}
+
+/* Atelier-Sulphurpool Purple */
+.satzbau-keyword,
+.javascript .satzbau-function {
+  color: #6679cc;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #f5f7ff;
+  color: #5e6687;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.5;
+}

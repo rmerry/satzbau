@@ -1,0 +1,80 @@
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-tag {
+  color: #e3ceab;
+}
+
+.satzbau-template-tag {
+  color: #dcdcdc;
+}
+
+.satzbau-number {
+  color: #8cd0d3;
+}
+
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-attribute {
+  color: #efdcbc;
+}
+
+.satzbau-literal {
+  color: #efefaf;
+}
+
+.satzbau-subst {
+  color: #8f8f8f;
+}
+
+.satzbau-title,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-section,
+.satzbau-type {
+  color: #efef8f;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-link {
+  color: #dca3a3;
+}
+
+.satzbau-deletion,
+.satzbau-string,
+.satzbau-built_in,
+.satzbau-builtin-name {
+  color: #cc9393;
+}
+
+.satzbau-addition,
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-meta {
+  color: #7f9f7f;
+}
+
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

@@ -1,0 +1,108 @@
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/tovic>
+ * ----------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #fc9b9b
+ * #ffa
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #333;
+  color: white;
+}
+
+.satzbau-name,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-code,
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-tag {
+  color: #62c8f3;
+}
+
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #ade5fc;
+}
+
+.satzbau-string,
+.satzbau-bullet {
+  color: #a2fca2;
+}
+
+.satzbau-type,
+.satzbau-title,
+.satzbau-section,
+.satzbau-attribute,
+.satzbau-quote,
+.satzbau-built_in,
+.satzbau-builtin-name {
+  color: #ffa;
+}
+
+.satzbau-number,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #d36363;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal {
+  color: #fcc28c;
+}
+
+.satzbau-comment,
+.satzbau-deletion,
+.satzbau-code {
+  color: #888;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #c6b4f0;
+}
+
+.satzbau-meta {
+  color: #fc9b9b;
+}
+
+.satzbau-deletion {
+  background-color: #fc9b9b;
+  color: #333;
+}
+
+.satzbau-addition {
+  background-color: #a2fca2;
+  color: #333;
+}
+
+.satzbau a {
+  color: inherit;
+}
+
+.satzbau a:focus,
+.satzbau a:hover {
+  color: inherit;
+  text-decoration: underline;
+}

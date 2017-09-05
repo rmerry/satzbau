@@ -1,0 +1,106 @@
+/*
+  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+  -webkit-text-size-adjust: none;
+}
+
+.satzbau-shebang,
+.satzbau-comment {
+  color: #7c7c7c;
+}
+
+.satzbau-keyword,
+.satzbau-tag,
+.tex .satzbau-command,
+.satzbau-request,
+.satzbau-status,
+.clojure .satzbau-attribute {
+  color: #96cbfe;
+}
+
+.satzbau-sub .hljs-keyword,
+.method,
+.satzbau-list .hljs-title,
+.nginx .satzbau-title {
+  color: #ffffb6;
+}
+
+.satzbau-string,
+.satzbau-tag .hljs-value,
+.satzbau-cdata,
+.satzbau-filter .hljs-argument,
+.satzbau-attr_selector,
+.apache .satzbau-cbracket,
+.satzbau-date,
+.coffeescript .satzbau-attribute {
+  color: #a8ff60;
+}
+
+.satzbau-subst {
+  color: #daefa3;
+}
+
+.satzbau-regexp {
+  color: #e9c062;
+}
+
+.satzbau-title,
+.satzbau-sub .hljs-identifier,
+.satzbau-pi,
+.satzbau-decorator,
+.tex .satzbau-special,
+.satzbau-type,
+.satzbau-constant,
+.smalltalk .satzbau-class,
+.satzbau-doctag,
+.nginx .satzbau-built_in {
+  color: #ffffb6;
+}
+
+.satzbau-symbol,
+.ruby .satzbau-symbol .hljs-string,
+.satzbau-number,
+.satzbau-variable,
+.vbscript,
+.satzbau-literal,
+.satzbau-name {
+  color: #c6c5fe;
+}
+
+.css .satzbau-tag {
+  color: #96cbfe;
+}
+
+.css .satzbau-rule .hljs-property,
+.css .satzbau-id {
+  color: #ffffb6;
+}
+
+.css .satzbau-class {
+  color: #fff;
+}
+
+.satzbau-hexcolor {
+  color: #c6c5fe;
+}
+
+.satzbau-number {
+  color:#ff73fd;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.7;
+}

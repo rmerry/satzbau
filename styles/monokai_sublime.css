@@ -1,0 +1,154 @@
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+  -webkit-text-size-adjust: none;
+}
+
+.satzbau,
+.satzbau-tag,
+.css .satzbau-rule,
+.css .satzbau-value,
+.aspectj .satzbau-function,
+.css .satzbau-function
+.satzbau-preprocessor,
+.satzbau-pragma {
+  color: #f8f8f2;
+}
+
+.satzbau-strongemphasis,
+.satzbau-strong,
+.satzbau-emphasis {
+  color: #a8a8a2;
+}
+
+.satzbau-bullet,
+.satzbau-blockquote,
+.satzbau-horizontal_rule,
+.satzbau-number,
+.satzbau-regexp,
+.alias .satzbau-keyword,
+.satzbau-literal,
+.satzbau-hexcolor {
+  color: #ae81ff;
+}
+
+.satzbau-tag .hljs-value,
+.satzbau-code,
+.satzbau-title,
+.css .satzbau-class,
+.satzbau-class .hljs-title:last-child {
+  color: #a6e22e;
+}
+
+.satzbau-link_url {
+  font-size: 80%;
+}
+
+.satzbau-strong,
+.satzbau-strongemphasis {
+  font-weight: bold;
+}
+
+.satzbau-emphasis,
+.satzbau-strongemphasis,
+.satzbau-class .hljs-title:last-child,
+.satzbau-typename {
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.ruby .satzbau-class .hljs-keyword:first-child,
+.ruby .satzbau-function .hljs-keyword,
+.satzbau-function,
+.satzbau-change,
+.satzbau-winutils,
+.satzbau-flow,
+.nginx .satzbau-title,
+.tex .satzbau-special,
+.satzbau-header,
+.satzbau-attribute,
+.satzbau-symbol,
+.satzbau-symbol .hljs-string,
+.satzbau-tag .hljs-title,
+.satzbau-value,
+.alias .satzbau-keyword:first-child,
+.css .satzbau-tag,
+.css .unit,
+.css .satzbau-important {
+  color: #f92672;
+}
+
+.satzbau-function .hljs-keyword,
+.satzbau-class .hljs-keyword:first-child,
+.satzbau-aspect .hljs-keyword:first-child,
+.satzbau-constant,
+.satzbau-typename,
+.satzbau-name,
+.css .satzbau-attribute {
+  color: #66d9ef;
+}
+
+.satzbau-variable,
+.satzbau-params,
+.satzbau-class .hljs-title,
+.satzbau-aspect .hljs-title {
+  color: #f8f8f2;
+}
+
+.satzbau-string,
+.css .satzbau-id,
+.satzbau-subst,
+.satzbau-type,
+.ruby .satzbau-class .hljs-parent,
+.satzbau-built_in,
+.django .satzbau-template_tag,
+.django .satzbau-variable,
+.smalltalk .satzbau-class,
+.django .satzbau-filter .hljs-argument,
+.smalltalk .satzbau-localvars,
+.smalltalk .satzbau-array,
+.satzbau-attr_selector,
+.satzbau-pseudo,
+.satzbau-addition,
+.satzbau-stream,
+.satzbau-envvar,
+.apache .satzbau-tag,
+.apache .satzbau-cbracket,
+.tex .satzbau-command,
+.satzbau-prompt,
+.satzbau-link_label,
+.satzbau-link_url {
+  color: #e6db74;
+}
+
+.satzbau-comment,
+.satzbau-annotation,
+.satzbau-decorator,
+.satzbau-pi,
+.satzbau-doctype,
+.satzbau-deletion,
+.satzbau-shebang,
+.apache .satzbau-sqbracket,
+.tex .satzbau-formula {
+  color: #75715e;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata,
+.xml .php,
+.php .xml {
+  opacity: 0.5;
+}

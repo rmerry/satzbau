@@ -1,0 +1,92 @@
+
+/*
+  xt256.css
+
+  Contact: initbar [at] protonmail [dot] ch
+         : github.com/initbar
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  color: #eaeaea;
+  background: #000;
+  padding: 0.5;
+}
+
+.satzbau-subst {
+  color: #eaeaea;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-builtin-name,
+.satzbau-type {
+  color: #eaeaea;
+}
+
+.satzbau-params {
+  color: #da0000;
+}
+
+.satzbau-literal,
+.satzbau-number,
+.satzbau-name {
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+.satzbau-comment {
+  color: #969896;
+}
+
+.satzbau-selector-id,
+.satzbau-quote {
+  color: #00ffff;
+}
+
+.satzbau-template-variable,
+.satzbau-variable,
+.satzbau-title {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.satzbau-selector-class,
+.satzbau-keyword,
+.satzbau-symbol {
+  color: #fff000;
+}
+
+.satzbau-string,
+.satzbau-bullet {
+  color: #00ff00;
+}
+
+.satzbau-tag,
+.satzbau-section {
+  color: #000fff;
+}
+
+.satzbau-selector-tag {
+  color: #000fff;
+  font-weight: bold;
+}
+
+.satzbau-attribute,
+.satzbau-built_in,
+.satzbau-regexp,
+.satzbau-link {
+  color: #ff00ff;
+}
+
+.satzbau-meta {
+  color: #fff;
+  font-weight: bolder;
+}

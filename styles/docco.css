@@ -1,0 +1,97 @@
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #f8f8ff;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #408080;
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-subst {
+  color: #954121;
+}
+
+.satzbau-number {
+  color: #40a070;
+}
+
+.satzbau-string,
+.satzbau-doctag {
+  color: #219161;
+}
+
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-section,
+.satzbau-type {
+  color: #19469d;
+}
+
+.satzbau-params {
+  color: #00f;
+}
+
+.satzbau-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.satzbau-tag,
+.satzbau-name,
+.satzbau-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #008080;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #b68;
+}
+
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #990073;
+}
+
+.satzbau-built_in,
+.satzbau-builtin-name {
+  color: #0086b3;
+}
+
+.satzbau-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.satzbau-deletion {
+  background: #fdd;
+}
+
+.satzbau-addition {
+  background: #dfd;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

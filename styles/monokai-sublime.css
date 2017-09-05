@@ -1,0 +1,83 @@
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+}
+
+.satzbau,
+.satzbau-tag,
+.satzbau-subst {
+  color: #f8f8f2;
+}
+
+.satzbau-strong,
+.satzbau-emphasis {
+  color: #a8a8a2;
+}
+
+.satzbau-bullet,
+.satzbau-quote,
+.satzbau-number,
+.satzbau-regexp,
+.satzbau-literal,
+.satzbau-link {
+  color: #ae81ff;
+}
+
+.satzbau-code,
+.satzbau-title,
+.satzbau-section,
+.satzbau-selector-class {
+  color: #a6e22e;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-name,
+.satzbau-attr {
+  color: #f92672;
+}
+
+.satzbau-symbol,
+.satzbau-attribute {
+  color: #66d9ef;
+}
+
+.satzbau-params,
+.satzbau-class .hljs-title {
+  color: #f8f8f2;
+}
+
+.satzbau-string,
+.satzbau-type,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-selector-id,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-addition,
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #e6db74;
+}
+
+.satzbau-comment,
+.satzbau-deletion,
+.satzbau-meta {
+  color: #75715e;
+}

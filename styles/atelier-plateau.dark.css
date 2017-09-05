@@ -1,0 +1,113 @@
+/* Base16 Atelier Plateau Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.satzbau-comment {
+  color: #7e7777;
+}
+
+/* Atelier-Plateau Red */
+.satzbau-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-regexp,
+.satzbau-name,
+.ruby .satzbau-constant,
+.xml .satzbau-tag .hljs-title,
+.xml .satzbau-pi,
+.xml .satzbau-doctype,
+.html .satzbau-doctype,
+.css .satzbau-id,
+.css .satzbau-class,
+.css .satzbau-pseudo {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.satzbau-number,
+.satzbau-preprocessor,
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-params,
+.satzbau-constant {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Yellow */
+.ruby .satzbau-class .hljs-title,
+.css .satzbau-rule .hljs-attribute {
+  color: #a06e3b;
+}
+
+/* Atelier-Plateau Green */
+.satzbau-string,
+.satzbau-value,
+.satzbau-inheritance,
+.satzbau-header,
+.ruby .satzbau-symbol,
+.xml .satzbau-cdata {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Aqua */
+.satzbau-title,
+.css .satzbau-hexcolor {
+  color: #5485b6;
+}
+
+/* Atelier-Plateau Blue */
+.satzbau-function,
+.python .satzbau-decorator,
+.python .satzbau-title,
+.ruby .satzbau-function .hljs-title,
+.ruby .satzbau-title .hljs-keyword,
+.perl .satzbau-sub,
+.javascript .satzbau-title,
+.coffeescript .satzbau-title {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.satzbau-keyword,
+.javascript .satzbau-function {
+  color: #8464c4;
+}
+
+.diff .satzbau-deletion,
+.diff .satzbau-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.diff .satzbau-deletion {
+  background-color: #ca4949;
+}
+
+.diff .satzbau-addition {
+  background-color: #4b8b8b;
+}
+
+.diff .satzbau-change {
+  color: #7272ca;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #1b1818;
+  color: #8a8585;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.5;
+}

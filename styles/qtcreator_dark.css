@@ -1,0 +1,83 @@
+/*
+
+Qt Creator dark color scheme
+
+*/
+
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000000;
+}
+
+.satzbau,
+.satzbau-subst,
+.satzbau-tag,
+.satzbau-title {
+  color: #aaaaaa;
+}
+
+.satzbau-strong,
+.satzbau-emphasis {
+  color: #a8a8a2;
+}
+
+.satzbau-bullet,
+.satzbau-quote,
+.satzbau-number,
+.satzbau-regexp,
+.satzbau-literal {
+  color: #ff55ff;
+}
+
+.satzbau-code
+.satzbau-selector-class {
+  color: #aaaaff;
+}
+
+.satzbau-emphasis,
+.satzbau-stronge,
+.satzbau-type {
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-function,
+.satzbau-section,
+.satzbau-symbol,
+.satzbau-name {
+  color: #ffff55;
+}
+
+.satzbau-attribute {
+  color: #ff5555;
+}
+
+.satzbau-variable,
+.satzbau-params,
+.satzbau-class .hljs-title {
+  color: #8888ff;
+}
+
+.satzbau-string,
+.satzbau-selector-id,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-type,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-template-tag,
+.satzbau-template-variable,
+.satzbau-addition,
+.satzbau-link {
+  color: #ff55ff;
+}
+
+.satzbau-comment,
+.satzbau-meta,
+.satzbau-deletion {
+  color: #55ffff;
+}

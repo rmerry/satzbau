@@ -1,0 +1,84 @@
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fdf6e3;
+  color: #657b83;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #93a1a1;
+}
+
+/* Solarized Green */
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.satzbau-number,
+.satzbau-string,
+.satzbau-meta .hljs-meta-string,
+.satzbau-literal,
+.satzbau-doctag,
+.satzbau-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.satzbau-title,
+.satzbau-section,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.satzbau-attribute,
+.satzbau-attr,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-class .hljs-title,
+.satzbau-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-subst,
+.satzbau-meta,
+.satzbau-meta .hljs-keyword,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.satzbau-built_in,
+.satzbau-deletion {
+  color: #dc322f;
+}
+
+.satzbau-formula {
+  background: #eee8d5;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

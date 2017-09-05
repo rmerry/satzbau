@@ -1,0 +1,59 @@
+/*
+  Five-color theme from a single blue hue.
+*/
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eaeef3;
+}
+
+.satzbau {
+  color: #00193a;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-title,
+.satzbau-section,
+.satzbau-doctag,
+.satzbau-name,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-comment {
+  color: #738191;
+}
+
+.satzbau-string,
+.satzbau-title,
+.satzbau-section,
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-addition,
+.satzbau-tag,
+.satzbau-quote,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #0048ab;
+}
+
+.satzbau-meta,
+.satzbau-subst,
+.satzbau-symbol,
+.satzbau-regexp,
+.satzbau-attribute,
+.satzbau-deletion,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-link,
+.satzbau-bullet {
+  color: #4c81c9;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

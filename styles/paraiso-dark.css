@@ -1,0 +1,72 @@
+/*
+    Paraíso (dark)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #8d8687;
+}
+
+/* Paraíso Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-regexp,
+.satzbau-link,
+.satzbau-meta {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params,
+.satzbau-deletion {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.satzbau-title,
+.satzbau-section,
+.satzbau-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-addition {
+  color: #48b685;
+}
+
+/* Paraíso Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #815ba4;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #2f1e2e;
+  color: #a39e9b;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

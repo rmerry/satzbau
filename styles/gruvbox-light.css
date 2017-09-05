@@ -1,0 +1,108 @@
+/*
+
+Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fbf1c7;
+}
+
+.satzbau,
+.satzbau-subst {
+  color: #3c3836;
+}
+
+/* Gruvbox Red */
+.satzbau-deletion,
+.satzbau-formula,
+.satzbau-keyword,
+.satzbau-link,
+.satzbau-selector-tag {
+  color: #9d0006;
+}
+
+/* Gruvbox Blue */
+.satzbau-built_in,
+.satzbau-emphasis,
+.satzbau-name,
+.satzbau-quote,
+.satzbau-strong,
+.satzbau-title,
+.satzbau-variable {
+  color: #076678;
+}
+
+/* Gruvbox Yellow */
+.satzbau-attr,
+.satzbau-params,
+.satzbau-template-tag,
+.satzbau-type {
+  color: #b57614;
+}
+
+/* Gruvbox Purple */
+.satzbau-builtin-name,
+.satzbau-doctag,
+.satzbau-literal,
+.satzbau-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.satzbau-code,
+.satzbau-meta,
+.satzbau-regexp,
+.satzbau-selector-id,
+.satzbau-template-variable {
+  color: #af3a03;
+}
+
+/* Gruvbox Green */
+.satzbau-addition,
+.satzbau-meta-string,
+.satzbau-section,
+.satzbau-selector-attr,
+.satzbau-selector-class,
+.satzbau-string,
+.satzbau-symbol {
+  color: #79740e;
+}
+
+/* Gruvbox Aqua */
+.satzbau-attribute,
+.satzbau-bullet,
+.satzbau-class,
+.satzbau-function,
+.satzbau-function .hljs-keyword,
+.satzbau-meta-keyword,
+.satzbau-selector-pseudo,
+.satzbau-tag {
+  color: #427b58;
+}
+
+/* Gruvbox Gray */
+.satzbau-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.satzbau-link_label,
+.satzbau-literal,
+.satzbau-number {
+  color: #8f3f71;
+}
+
+.satzbau-comment,
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-section,
+.satzbau-strong,
+.satzbau-tag {
+  font-weight: bold;
+}

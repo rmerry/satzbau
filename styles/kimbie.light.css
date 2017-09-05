@@ -1,0 +1,74 @@
+/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #a57a4c;
+}
+
+/* Kimbie Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-regexp,
+.satzbau-meta {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params,
+.satzbau-deletion,
+.satzbau-link {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.satzbau-title,
+.satzbau-section,
+.satzbau-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-addition {
+  color: #889b4a;
+}
+
+/* Kimbie Purple */
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-function {
+  color: #98676a;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #fbebd4;
+  color: #84613d;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

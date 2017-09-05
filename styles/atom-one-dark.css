@@ -1,0 +1,96 @@
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.satzbau-doctag,
+.satzbau-keyword,
+.satzbau-formula {
+  color: #c678dd;
+}
+
+.satzbau-section,
+.satzbau-name,
+.satzbau-selector-tag,
+.satzbau-deletion,
+.satzbau-subst {
+  color: #e06c75;
+}
+
+.satzbau-literal {
+  color: #56b6c2;
+}
+
+.satzbau-string,
+.satzbau-regexp,
+.satzbau-addition,
+.satzbau-attribute,
+.satzbau-meta-string {
+  color: #98c379;
+}
+
+.satzbau-built_in,
+.satzbau-class .hljs-title {
+  color: #e6c07b;
+}
+
+.satzbau-attr,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-type,
+.satzbau-selector-class,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-number {
+  color: #d19a66;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-link,
+.satzbau-meta,
+.satzbau-selector-id,
+.satzbau-title {
+  color: #61aeee;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-link {
+  text-decoration: underline;
+}

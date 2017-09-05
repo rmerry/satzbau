@@ -1,0 +1,74 @@
+/* Tomorrow Night Bright Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-regexp,
+.satzbau-deletion {
+  color: #d54e53;
+}
+
+/* Tomorrow Orange */
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params,
+.satzbau-meta,
+.satzbau-link {
+  color: #e78c45;
+}
+
+/* Tomorrow Yellow */
+.satzbau-attribute {
+  color: #e7c547;
+}
+
+/* Tomorrow Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-addition {
+  color: #b9ca4a;
+}
+
+/* Tomorrow Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #7aa6da;
+}
+
+/* Tomorrow Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #c397d8;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: black;
+  color: #eaeaea;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

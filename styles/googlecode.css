@@ -1,0 +1,89 @@
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #800;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-section,
+.satzbau-title,
+.satzbau-name {
+  color: #008;
+}
+
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #660;
+}
+
+.satzbau-string,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-regexp {
+  color: #080;
+}
+
+.satzbau-literal,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-meta,
+.satzbau-number,
+.satzbau-link {
+  color: #066;
+}
+
+.satzbau-title,
+.satzbau-doctag,
+.satzbau-type,
+.satzbau-attr,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-params {
+  color: #606;
+}
+
+.satzbau-attribute,
+.satzbau-subst {
+  color: #000;
+}
+
+.satzbau-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #9B703F
+}
+
+.satzbau-addition {
+  background-color: #baeeba;
+}
+
+.satzbau-deletion {
+  background-color: #ffc8bd;
+}
+
+.satzbau-doctag,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

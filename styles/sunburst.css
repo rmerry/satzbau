@@ -1,0 +1,102 @@
+/*
+
+Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #aeaeae;
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-type {
+  color: #e28964;
+}
+
+.satzbau-string {
+  color: #65b042;
+}
+
+.satzbau-subst {
+  color: #daefa3;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #e9c062;
+}
+
+.satzbau-title,
+.satzbau-section,
+.satzbau-tag,
+.satzbau-name {
+  color: #89bdff;
+}
+
+.satzbau-class .hljs-title,
+.satzbau-doctag {
+  text-decoration: underline;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-number {
+  color: #3387cc;
+}
+
+.satzbau-params,
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #3e87e3;
+}
+
+.satzbau-attribute {
+  color: #cda869;
+}
+
+.satzbau-meta {
+  color: #8996a8;
+}
+
+.satzbau-formula {
+  background-color: #0e2231;
+  color: #f8f8f8;
+  font-style: italic;
+}
+
+.satzbau-addition {
+  background-color: #253b22;
+  color: #f8f8f8;
+}
+
+.satzbau-deletion {
+  background-color: #420e09;
+  color: #f8f8f8;
+}
+
+.satzbau-selector-class {
+  color: #9b703f;
+}
+
+.satzbau-selector-id {
+  color: #8b98ab;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

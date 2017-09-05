@@ -1,0 +1,113 @@
+/* Base16 Atelier Estuary Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.satzbau-comment {
+  color: #878573;
+}
+
+/* Atelier-Estuary Red */
+.satzbau-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-regexp,
+.satzbau-name,
+.ruby .satzbau-constant,
+.xml .satzbau-tag .hljs-title,
+.xml .satzbau-pi,
+.xml .satzbau-doctype,
+.html .satzbau-doctype,
+.css .satzbau-id,
+.css .satzbau-class,
+.css .satzbau-pseudo {
+  color: #ba6236;
+}
+
+/* Atelier-Estuary Orange */
+.satzbau-number,
+.satzbau-preprocessor,
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-params,
+.satzbau-constant {
+  color: #ae7313;
+}
+
+/* Atelier-Estuary Yellow */
+.ruby .satzbau-class .hljs-title,
+.css .satzbau-rule .hljs-attribute {
+  color: #a5980d;
+}
+
+/* Atelier-Estuary Green */
+.satzbau-string,
+.satzbau-value,
+.satzbau-inheritance,
+.satzbau-header,
+.ruby .satzbau-symbol,
+.xml .satzbau-cdata {
+  color: #7d9726;
+}
+
+/* Atelier-Estuary Aqua */
+.satzbau-title,
+.css .satzbau-hexcolor {
+  color: #5b9d48;
+}
+
+/* Atelier-Estuary Blue */
+.satzbau-function,
+.python .satzbau-decorator,
+.python .satzbau-title,
+.ruby .satzbau-function .hljs-title,
+.ruby .satzbau-title .hljs-keyword,
+.perl .satzbau-sub,
+.javascript .satzbau-title,
+.coffeescript .satzbau-title {
+  color: #36a166;
+}
+
+/* Atelier-Estuary Purple */
+.satzbau-keyword,
+.javascript .satzbau-function {
+  color: #5f9182;
+}
+
+.diff .satzbau-deletion,
+.diff .satzbau-addition {
+  color: #22221b;
+  display: inline-block;
+  width: 100%;
+}
+
+.diff .satzbau-deletion {
+  background-color: #ba6236;
+}
+
+.diff .satzbau-addition {
+  background-color: #7d9726;
+}
+
+.diff .satzbau-change {
+  color: #36a166;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #22221b;
+  color: #929181;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.5;
+}

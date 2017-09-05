@@ -1,0 +1,69 @@
+/* Base16 Atelier Heath Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #776977;
+}
+
+/* Atelier-Heath Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-regexp,
+.satzbau-link,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #ca402b;
+}
+
+/* Atelier-Heath Orange */
+.satzbau-number,
+.satzbau-meta,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params {
+  color: #a65926;
+}
+
+/* Atelier-Heath Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #918b3b;
+}
+
+/* Atelier-Heath Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #516aec;
+}
+
+/* Atelier-Heath Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #7b59c0;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #f7f3f7;
+  color: #695d69;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

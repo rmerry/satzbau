@@ -1,0 +1,93 @@
+/*
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  color: black;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #006a00;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal {
+  color: #aa0d91;
+}
+
+.satzbau-name {
+  color: #008;
+}
+
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #660;
+}
+
+.satzbau-string {
+  color: #c41a16;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #080;
+}
+
+.satzbau-title,
+.satzbau-tag,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-number,
+.satzbau-meta {
+  color: #1c00cf;
+}
+
+.satzbau-section,
+.satzbau-class .hljs-title,
+.satzbau-type,
+.satzbau-attr,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-params {
+  color: #5c2699;
+}
+
+.satzbau-attribute,
+.satzbau-subst {
+  color: #000;
+}
+
+.satzbau-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.satzbau-addition {
+  background-color: #baeeba;
+}
+
+.satzbau-deletion {
+  background-color: #ffc8bd;
+}
+
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #9b703f;
+}
+
+.satzbau-doctag,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

@@ -1,0 +1,94 @@
+/* Base16 Atelier Forest Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.satzbau-comment {
+  color: #9c9491;
+}
+
+/* Atelier-Forest Red */
+.satzbau-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-regexp,
+.satzbau-name,
+.ruby .satzbau-constant,
+.xml .satzbau-tag .hljs-title,
+.xml .satzbau-pi,
+.xml .satzbau-doctype,
+.html .satzbau-doctype,
+.css .satzbau-id,
+.css .satzbau-class,
+.css .satzbau-pseudo {
+  color: #f22c40;
+}
+
+/* Atelier-Forest Orange */
+.satzbau-number,
+.satzbau-preprocessor,
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-params,
+.satzbau-constant {
+  color: #df5320;
+}
+
+/* Atelier-Forest Yellow */
+.ruby .satzbau-class .hljs-title,
+.css .satzbau-rule .hljs-attribute {
+  color: #c38418;
+}
+
+/* Atelier-Forest Green */
+.satzbau-string,
+.satzbau-value,
+.satzbau-inheritance,
+.satzbau-header,
+.ruby .satzbau-symbol,
+.xml .satzbau-cdata {
+  color: #7b9726;
+}
+
+/* Atelier-Forest Aqua */
+.satzbau-title,
+.css .satzbau-hexcolor {
+  color: #3d97b8;
+}
+
+/* Atelier-Forest Blue */
+.satzbau-function,
+.python .satzbau-decorator,
+.python .satzbau-title,
+.ruby .satzbau-function .hljs-title,
+.ruby .satzbau-title .hljs-keyword,
+.perl .satzbau-sub,
+.javascript .satzbau-title,
+.coffeescript .satzbau-title {
+  color: #407ee7;
+}
+
+/* Atelier-Forest Purple */
+.satzbau-keyword,
+.javascript .satzbau-function {
+  color: #6666ea;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #1b1918;
+  color: #a8a19f;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.5;
+}

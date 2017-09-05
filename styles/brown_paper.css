@@ -1,0 +1,103 @@
+/*
+
+Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background:#b7a68e url(./brown_papersq.png);
+  -webkit-text-size-adjust: none;
+}
+
+.satzbau-keyword,
+.satzbau-literal,
+.satzbau-change,
+.satzbau-winutils,
+.satzbau-flow,
+.nginx .satzbau-title,
+.tex .satzbau-special,
+.satzbau-request,
+.satzbau-status {
+  color:#005599;
+  font-weight:bold;
+}
+
+.satzbau,
+.satzbau-subst,
+.satzbau-tag .hljs-keyword {
+  color: #363c69;
+}
+
+.satzbau-string,
+.satzbau-title,
+.satzbau-type,
+.satzbau-tag .hljs-value,
+.css .satzbau-rule .hljs-value,
+.satzbau-preprocessor,
+.satzbau-pragma,
+.ruby .satzbau-symbol,
+.ruby .satzbau-symbol .hljs-string,
+.ruby .satzbau-class .hljs-parent,
+.satzbau-built_in,
+.django .satzbau-template_tag,
+.django .satzbau-variable,
+.smalltalk .satzbau-class,
+.ruby .satzbau-string,
+.django .satzbau-filter .hljs-argument,
+.smalltalk .satzbau-localvars,
+.smalltalk .satzbau-array,
+.satzbau-attr_selector,
+.satzbau-pseudo,
+.satzbau-addition,
+.satzbau-stream,
+.satzbau-envvar,
+.apache .satzbau-tag,
+.apache .satzbau-cbracket,
+.tex .satzbau-number,
+.satzbau-name {
+  color: #2c009f;
+}
+
+.satzbau-comment,
+.satzbau-annotation,
+.satzbau-decorator,
+.satzbau-pi,
+.satzbau-doctype,
+.satzbau-deletion,
+.satzbau-shebang,
+.apache .satzbau-sqbracket,
+.nginx .satzbau-built_in,
+.tex .satzbau-formula {
+  color: #802022;
+}
+
+.satzbau-keyword,
+.satzbau-literal,
+.css .satzbau-id,
+.satzbau-doctag,
+.satzbau-title,
+.satzbau-type,
+.vbscript .satzbau-built_in,
+.rsl .satzbau-built_in,
+.smalltalk .satzbau-class,
+.diff .satzbau-header,
+.satzbau-chunk,
+.satzbau-winutils,
+.bash .satzbau-variable,
+.apache .satzbau-tag,
+.tex .satzbau-command {
+  font-weight: bold;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.8;
+}

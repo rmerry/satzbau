@@ -1,0 +1,96 @@
+/*
+
+PureBASIC native IDE style ( version 1.0 - April 2016 )
+
+by Tristano Ajmone <tajmone@gmail.com>
+
+Public Domain
+
+NOTE_1:	PureBASIC code syntax highlighting only applies the following classes:
+			.satzbau-comment
+			.satzbau-function
+			.satzbau-keywords
+			.satzbau-string
+			.satzbau-symbol
+
+		Other classes are added here for the benefit of styling other languages with the look and feel of PureBASIC native IDE style.
+		If you need to customize a stylesheet for PureBASIC only, remove all non-relevant classes -- PureBASIC-related classes are followed by
+		a "--- used for PureBASIC ... ---" comment on same line.
+
+NOTE_2:	Color names provided in comments were derived using "Name that Color" online tool:
+			http://chir.ag/projects/name-that-color
+*/
+
+.satzbau { /* Common set of rules required by highlight.js (don'r remove!) */
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	background: #FFFFDF; /* Half and Half (approx.) */
+/* --- Uncomment to add PureBASIC native IDE styled font!
+	font-family: Consolas;
+*/
+}
+
+.satzbau, /* --- used for PureBASIC base color --- */
+.satzbau-type,  /* --- used for PureBASIC Procedures return type --- */
+.satzbau-function, /* --- used for wrapping PureBASIC Procedures definitions --- */
+.satzbau-name,
+.satzbau-number,
+.satzbau-attr,
+.satzbau-params,
+.satzbau-subst {
+	color: #000000; /* Black */
+}
+
+.satzbau-comment, /* --- used for PureBASIC Comments --- */
+.satzbau-regexp,
+.satzbau-section,
+.satzbau-selector-pseudo,
+.satzbau-addition {
+	color: #00AAAA; /* Persian Green (approx.) */
+}
+
+.satzbau-title, /* --- used for PureBASIC Procedures Names --- */
+.satzbau-tag,
+.satzbau-variable,
+.satzbau-code  {
+	color: #006666; /* Blue Stone (approx.) */
+}
+
+.satzbau-keyword, /* --- used for PureBASIC Keywords --- */
+.satzbau-class,
+.satzbau-meta-keyword,
+.satzbau-selector-class,
+.satzbau-built_in,
+.satzbau-builtin-name {
+	color: #006666; /* Blue Stone (approx.) */
+	font-weight: bold;
+}
+
+.satzbau-string, /* --- used for PureBASIC Strings --- */
+.satzbau-selector-attr {
+	color: #0080FF; /* Azure Radiance (approx.) */
+}
+
+.satzbau-symbol, /* --- used for PureBASIC Constants --- */
+.satzbau-link,
+.satzbau-deletion,
+.satzbau-attribute {
+	color: #924B72; /* Cannon Pink (approx.) */
+}
+
+.satzbau-meta,
+.satzbau-literal,
+.satzbau-selector-id {
+	color: #924B72; /* Cannon Pink (approx.) */
+	font-weight: bold;
+}
+
+.satzbau-strong,
+.satzbau-name {
+	font-weight: bold;
+}
+
+.satzbau-emphasis {
+	font-style: italic;
+}

@@ -1,0 +1,69 @@
+/* Base16 Atelier Sulphurpool Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #898ea4;
+}
+
+/* Atelier-Sulphurpool Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-regexp,
+.satzbau-link,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.satzbau-number,
+.satzbau-meta,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #ac9739;
+}
+
+/* Atelier-Sulphurpool Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #3d8fd1;
+}
+
+/* Atelier-Sulphurpool Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #6679cc;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #202746;
+  color: #979db4;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

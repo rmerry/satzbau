@@ -1,0 +1,72 @@
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #8e908c;
+}
+
+/* Tomorrow Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-regexp,
+.satzbau-deletion {
+  color: #c82829;
+}
+
+/* Tomorrow Orange */
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params,
+.satzbau-meta,
+.satzbau-link {
+  color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.satzbau-attribute {
+  color: #eab700;
+}
+
+/* Tomorrow Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-addition {
+  color: #718c00;
+}
+
+/* Tomorrow Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #8959a8;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: white;
+  color: #4d4d4c;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

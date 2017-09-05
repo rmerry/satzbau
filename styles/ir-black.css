@@ -1,0 +1,73 @@
+/*
+  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-meta {
+  color: #7c7c7c;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-tag,
+.satzbau-name {
+  color: #96cbfe;
+}
+
+.satzbau-attribute,
+.satzbau-selector-id {
+  color: #ffffb6;
+}
+
+.satzbau-string,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-addition {
+  color: #a8ff60;
+}
+
+.satzbau-subst {
+  color: #daefa3;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #e9c062;
+}
+
+.satzbau-title,
+.satzbau-section,
+.satzbau-type,
+.satzbau-doctag {
+  color: #ffffb6;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-literal {
+  color: #c6c5fe;
+}
+
+.satzbau-number,
+.satzbau-deletion {
+  color:#ff73fd;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

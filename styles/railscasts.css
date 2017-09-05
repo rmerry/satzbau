@@ -1,0 +1,106 @@
+/*
+
+Railscasts-like style (c) Visoft, Inc. (Damien White)
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #232323;
+  color: #e6e1dc;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #bc9458;
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #c26230;
+}
+
+.satzbau-string,
+.satzbau-number,
+.satzbau-regexp,
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #a5c261;
+}
+
+.satzbau-subst {
+  color: #519f50;
+}
+
+.satzbau-tag,
+.satzbau-name {
+  color: #e8bf6a;
+}
+
+.satzbau-type {
+  color: #da4939;
+}
+
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-attr,
+.satzbau-link {
+  color: #6d9cbe;
+}
+
+.satzbau-params {
+  color: #d0d0ff;
+}
+
+.satzbau-attribute {
+  color: #cda869;
+}
+
+.satzbau-meta {
+  color: #9b859d;
+}
+
+.satzbau-title,
+.satzbau-section {
+  color: #ffc66d;
+}
+
+.satzbau-addition {
+  background-color: #144212;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.satzbau-deletion {
+  background-color: #600;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.satzbau-selector-class {
+  color: #9b703f;
+}
+
+.satzbau-selector-id {
+  color: #8b98ab;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-link {
+  text-decoration: underline;
+}

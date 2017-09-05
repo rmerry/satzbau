@@ -1,0 +1,71 @@
+/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+}
+
+.satzbau,
+.satzbau-subst {
+  color: #000;
+}
+
+.satzbau-string,
+.satzbau-meta,
+.satzbau-symbol,
+.satzbau-template-tag,
+.satzbau-template-variable,
+.satzbau-addition {
+  color: #756bb1;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #636363;
+}
+
+.satzbau-number,
+.satzbau-regexp,
+.satzbau-literal,
+.satzbau-bullet,
+.satzbau-link {
+  color: #31a354;
+}
+
+.satzbau-deletion,
+.satzbau-variable {
+  color: #88f;
+}
+
+
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-title,
+.satzbau-section,
+.satzbau-built_in,
+.satzbau-doctag,
+.satzbau-type,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-strong {
+  color: #3182bd;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-attribute {
+  color: #e6550d;
+}

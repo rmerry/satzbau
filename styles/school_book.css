@@ -1,0 +1,111 @@
+/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 15px 0.5em 0.5em 30px;
+  font-size: 11px !important;
+  line-height:16px !important;
+  -webkit-text-size-adjust: none;
+}
+
+pre{
+  background:#f6f6ae url(./school_book.png);
+  border-top: solid 2px #d2e8b9;
+  border-bottom: solid 1px #d2e8b9;
+}
+
+.satzbau-keyword,
+.satzbau-literal,
+.satzbau-change,
+.satzbau-winutils,
+.satzbau-flow,
+.nginx .satzbau-title,
+.tex .satzbau-special {
+  color:#005599;
+  font-weight:bold;
+}
+
+.satzbau,
+.satzbau-subst,
+.satzbau-tag .hljs-keyword {
+  color: #3e5915;
+}
+
+.satzbau-string,
+.satzbau-title,
+.satzbau-type,
+.satzbau-tag .hljs-value,
+.css .satzbau-rule .hljs-value,
+.satzbau-preprocessor,
+.satzbau-pragma,
+.ruby .satzbau-symbol,
+.ruby .satzbau-symbol .hljs-string,
+.ruby .satzbau-class .hljs-parent,
+.satzbau-built_in,
+.django .satzbau-template_tag,
+.django .satzbau-variable,
+.smalltalk .satzbau-class,
+.ruby .satzbau-string,
+.django .satzbau-filter .hljs-argument,
+.smalltalk .satzbau-localvars,
+.smalltalk .satzbau-array,
+.satzbau-attr_selector,
+.satzbau-pseudo,
+.satzbau-addition,
+.satzbau-stream,
+.satzbau-envvar,
+.apache .satzbau-tag,
+.apache .satzbau-cbracket,
+.nginx .satzbau-built_in,
+.tex .satzbau-command,
+.coffeescript .satzbau-attribute,
+.satzbau-name {
+  color: #2c009f;
+}
+
+.satzbau-comment,
+.satzbau-annotation,
+.satzbau-decorator,
+.satzbau-pi,
+.satzbau-doctype,
+.satzbau-deletion,
+.satzbau-shebang,
+.apache .satzbau-sqbracket {
+  color: #e60415;
+}
+
+.satzbau-keyword,
+.satzbau-literal,
+.css .satzbau-id,
+.satzbau-doctag,
+.satzbau-title,
+.satzbau-type,
+.vbscript .satzbau-built_in,
+.rsl .satzbau-built_in,
+.smalltalk .satzbau-class,
+.xml .satzbau-tag .hljs-title,
+.diff .satzbau-header,
+.satzbau-chunk,
+.satzbau-winutils,
+.bash .satzbau-variable,
+.apache .satzbau-tag,
+.tex .satzbau-command,
+.satzbau-request,
+.satzbau-status {
+  font-weight: bold;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.5;
+}

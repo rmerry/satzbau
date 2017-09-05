@@ -1,0 +1,88 @@
+/**
+ * Obsidian style
+ * ported by Alexander Marenin (http://github.com/ioncreature)
+ */
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282b2e;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-selector-id {
+  color: #93c763;
+}
+
+.satzbau-number {
+  color: #ffcd22;
+}
+
+.satzbau {
+  color: #e0e2e4;
+}
+
+.satzbau-attribute {
+  color: #668bb0;
+}
+
+.satzbau-code,
+.satzbau-class .hljs-title,
+.satzbau-section {
+  color: white;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #d39745;
+}
+
+.satzbau-meta {
+  color: #557182;
+}
+
+.satzbau-tag,
+.satzbau-name,
+.satzbau-bullet,
+.satzbau-subst,
+.satzbau-emphasis,
+.satzbau-type,
+.satzbau-built_in,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-addition,
+.satzbau-variable,
+.satzbau-template-tag,
+.satzbau-template-variable {
+  color: #8cbbad;
+}
+
+.satzbau-string,
+.satzbau-symbol {
+  color: #ec7600;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-deletion {
+  color: #818e96;
+}
+
+.satzbau-selector-class {
+  color: #A082BD
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-doctag,
+.satzbau-title,
+.satzbau-section,
+.satzbau-type,
+.satzbau-name,
+.satzbau-strong {
+  font-weight: bold;
+}

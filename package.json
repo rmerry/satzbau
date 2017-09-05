@@ -1,0 +1,30 @@
+{
+  "name": "satzbau",
+  "version": "0.0.1",
+  "description": "A static HTML code block highlighter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "keywords": [
+    "syntax",
+    "code",
+    "highlighting"
+  ],
+  "author": "Richard Merry",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "command-line-args": "^4.0.7",
+    "highlightjs": "^9.10.0",
+    "jsdom": "^11.2.0",
+    "micromatch": "^3.0.4",
+    "parse-glob": "^3.0.4"
+  },
+  "bin": {
+    "satzbau": "bin/satzbau"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}

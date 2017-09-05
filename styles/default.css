@@ -1,0 +1,99 @@
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.satzbau,
+.satzbau-subst {
+  color: #444;
+}
+
+.satzbau-comment {
+  color: #888888;
+}
+
+.satzbau-keyword,
+.satzbau-attribute,
+.satzbau-selector-tag,
+.satzbau-meta-keyword,
+.satzbau-doctag,
+.satzbau-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.satzbau-type,
+.satzbau-string,
+.satzbau-number,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-quote,
+.satzbau-template-tag,
+.satzbau-deletion {
+  color: #880000;
+}
+
+.satzbau-title,
+.satzbau-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.satzbau-regexp,
+.satzbau-symbol,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-link,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.satzbau-literal {
+  color: #78A960;
+}
+
+.satzbau-built_in,
+.satzbau-bullet,
+.satzbau-code,
+.satzbau-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.satzbau-meta {
+  color: #1f7199;
+}
+
+.satzbau-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

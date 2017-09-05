@@ -1,0 +1,83 @@
+/*
+
+Pojoaque Style by Jason Tate
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
+Based on Solarized Style from http://ethanschoonover.com/solarized
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #dccf8f;
+  background: url(./pojoaque.jpg) repeat scroll left top #181914;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #586e75;
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-addition {
+  color: #b64926;
+}
+
+.satzbau-number,
+.satzbau-string,
+.satzbau-doctag,
+.satzbau-regexp {
+  color: #468966;
+}
+
+.satzbau-title,
+.satzbau-section,
+.satzbau-built_in,
+.satzbau-name {
+  color: #ffb03b;
+}
+
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-class .hljs-title,
+.satzbau-type,
+.satzbau-tag {
+  color: #b58900;
+}
+
+.satzbau-attribute {
+  color: #b89859;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-link,
+.satzbau-subst,
+.satzbau-meta {
+  color: #cb4b16;
+}
+
+.satzbau-deletion {
+  color: #dc322f;
+}
+
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #d3a60c;
+}
+
+.satzbau-formula {
+  background: #073642;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

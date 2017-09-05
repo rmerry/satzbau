@@ -1,0 +1,84 @@
+/* Base16 Atelier Savanna Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #78877d;
+}
+
+/* Atelier-Savanna Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-regexp,
+.satzbau-link,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #b16139;
+}
+
+/* Atelier-Savanna Orange */
+.satzbau-number,
+.satzbau-meta,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params {
+  color: #9f713c;
+}
+
+/* Atelier-Savanna Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #489963;
+}
+
+/* Atelier-Savanna Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #478c90;
+}
+
+/* Atelier-Savanna Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #55859b;
+}
+
+.satzbau-deletion,
+.satzbau-addition {
+  color: #171c19;
+  display: inline-block;
+  width: 100%;
+}
+
+.satzbau-deletion {
+  background-color: #b16139;
+}
+
+.satzbau-addition {
+  background-color: #489963;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #171c19;
+  color: #87928a;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

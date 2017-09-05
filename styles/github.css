@@ -1,0 +1,99 @@
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.satzbau-number,
+.satzbau-literal,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag .hljs-attr {
+  color: #008080;
+}
+
+.satzbau-string,
+.satzbau-doctag {
+  color: #d14;
+}
+
+.satzbau-title,
+.satzbau-section,
+.satzbau-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.satzbau-subst {
+  font-weight: normal;
+}
+
+.satzbau-type,
+.satzbau-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.satzbau-tag,
+.satzbau-name,
+.satzbau-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.satzbau-regexp,
+.satzbau-link {
+  color: #009926;
+}
+
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #990073;
+}
+
+.satzbau-built_in,
+.satzbau-builtin-name {
+  color: #0086b3;
+}
+
+.satzbau-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.satzbau-deletion {
+  background: #fdd;
+}
+
+.satzbau-addition {
+  background: #dfd;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

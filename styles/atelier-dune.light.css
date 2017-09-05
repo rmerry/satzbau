@@ -1,0 +1,94 @@
+/* Base16 Atelier Dune Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.satzbau-comment {
+  color: #7d7a68;
+}
+
+/* Atelier-Dune Red */
+.satzbau-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-regexp,
+.satzbau-name,
+.ruby .satzbau-constant,
+.xml .satzbau-tag .hljs-title,
+.xml .satzbau-pi,
+.xml .satzbau-doctype,
+.html .satzbau-doctype,
+.css .satzbau-id,
+.css .satzbau-class,
+.css .satzbau-pseudo {
+  color: #d73737;
+}
+
+/* Atelier-Dune Orange */
+.satzbau-number,
+.satzbau-preprocessor,
+.satzbau-built_in,
+.satzbau-literal,
+.satzbau-params,
+.satzbau-constant {
+  color: #b65611;
+}
+
+/* Atelier-Dune Yellow */
+.ruby .satzbau-class .hljs-title,
+.css .satzbau-rule .hljs-attribute {
+  color: #ae9513;
+}
+
+/* Atelier-Dune Green */
+.satzbau-string,
+.satzbau-value,
+.satzbau-inheritance,
+.satzbau-header,
+.ruby .satzbau-symbol,
+.xml .satzbau-cdata {
+  color: #60ac39;
+}
+
+/* Atelier-Dune Aqua */
+.satzbau-title,
+.css .satzbau-hexcolor {
+  color: #1fad83;
+}
+
+/* Atelier-Dune Blue */
+.satzbau-function,
+.python .satzbau-decorator,
+.python .satzbau-title,
+.ruby .satzbau-function .hljs-title,
+.ruby .satzbau-title .hljs-keyword,
+.perl .satzbau-sub,
+.javascript .satzbau-title,
+.coffeescript .satzbau-title {
+  color: #6684e1;
+}
+
+/* Atelier-Dune Purple */
+.satzbau-keyword,
+.javascript .satzbau-function {
+  color: #b854d4;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #fefbec;
+  color: #6e6b5e;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .satzbau-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .satzbau-cdata {
+  opacity: 0.5;
+}

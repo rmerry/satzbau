@@ -1,0 +1,70 @@
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #272822; color: #ddd;
+}
+
+.satzbau-tag,
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-strong,
+.satzbau-name {
+  color: #f92672;
+}
+
+.satzbau-code {
+  color: #66d9ef;
+}
+
+.satzbau-class .hljs-title {
+  color: white;
+}
+
+.satzbau-attribute,
+.satzbau-symbol,
+.satzbau-regexp,
+.satzbau-link {
+  color: #bf79db;
+}
+
+.satzbau-string,
+.satzbau-bullet,
+.satzbau-subst,
+.satzbau-title,
+.satzbau-section,
+.satzbau-emphasis,
+.satzbau-type,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-addition,
+.satzbau-variable,
+.satzbau-template-tag,
+.satzbau-template-variable {
+  color: #a6e22e;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-deletion,
+.satzbau-meta {
+  color: #75715e;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-doctag,
+.satzbau-title,
+.satzbau-section,
+.satzbau-type,
+.satzbau-selector-id {
+  font-weight: bold;
+}

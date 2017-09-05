@@ -1,0 +1,84 @@
+/* Base16 Atelier Plateau Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #655d5d;
+}
+
+/* Atelier-Plateau Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-regexp,
+.satzbau-link,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.satzbau-number,
+.satzbau-meta,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #8464c4;
+}
+
+.satzbau-deletion,
+.satzbau-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.satzbau-deletion {
+  background-color: #ca4949;
+}
+
+.satzbau-addition {
+  background-color: #4b8b8b;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #f4ecec;
+  color: #585050;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

@@ -1,0 +1,102 @@
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+}
+
+/*selection color*/
+.satzbau::selection,
+.satzbau span::selection {
+  background: #373b41;
+}
+
+.satzbau::-moz-selection,
+.satzbau span::-moz-selection {
+  background: #373b41;
+}
+
+/*foreground color*/
+.satzbau {
+  color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+.satzbau-title,
+.satzbau-name {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+.satzbau-comment,
+.satzbau-meta,
+.satzbau-meta .hljs-keyword {
+  color: #707880;
+}
+
+/*color: fg_red*/
+.satzbau-number,
+.satzbau-symbol,
+.satzbau-literal,
+.satzbau-deletion,
+.satzbau-link {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.satzbau-string,
+.satzbau-doctag,
+.satzbau-addition,
+.satzbau-regexp,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.satzbau-attribute,
+.satzbau-code,
+.satzbau-selector-id {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-bullet,
+.satzbau-tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.satzbau-subst,
+.satzbau-variable,
+.satzbau-template-tag,
+.satzbau-template-variable {
+  color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.satzbau-type,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-quote,
+.satzbau-section,
+.satzbau-selector-class {
+  color: #de935f;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

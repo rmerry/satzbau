@@ -1,0 +1,45 @@
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.satzbau-string,
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-section,
+.satzbau-addition,
+.satzbau-attribute,
+.satzbau-link {
+  color: #888;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-meta,
+.satzbau-deletion {
+  color: #ccc;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-section,
+.satzbau-name,
+.satzbau-type,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

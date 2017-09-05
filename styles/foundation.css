@@ -1,0 +1,88 @@
+/*
+Description: Foundation 4 docs style for highlight.js
+Author: Dan Allen <dan.j.allen@gmail.com>
+Website: http://foundation.zurb.com/docs/
+Version: 1.0
+Date: 2013-04-02
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eee; color: black;
+}
+
+.satzbau-link,
+.satzbau-emphasis,
+.satzbau-attribute,
+.satzbau-addition {
+  color: #070;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong,
+.satzbau-string,
+.satzbau-deletion {
+  color: #d14;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-quote,
+.satzbau-comment {
+  color: #998;
+  font-style: italic;
+}
+
+.satzbau-section,
+.satzbau-title {
+  color: #900;
+}
+
+.satzbau-class .hljs-title,
+.satzbau-type {
+  color: #458;
+}
+
+.satzbau-variable,
+.satzbau-template-variable {
+  color: #336699;
+}
+
+.satzbau-bullet {
+  color: #997700;
+}
+
+.satzbau-meta {
+  color: #3344bb;
+}
+
+.satzbau-code,
+.satzbau-number,
+.satzbau-literal,
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #099;
+}
+
+.satzbau-regexp {
+  background-color: #fff0ff;
+  color: #880088;
+}
+
+.satzbau-symbol {
+  color: #990073;
+}
+
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #007700;
+}

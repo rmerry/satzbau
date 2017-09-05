@@ -1,0 +1,66 @@
+/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira <kanytu@gmail . com>
+*/
+
+.satzbau {
+  color: #a9b7c6;
+  background: #282b2e;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.satzbau-number,
+.satzbau-literal,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #6897BB;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-deletion {
+  color: #cc7832;
+}
+
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-link {
+  color: #629755;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #808080;
+}
+
+.satzbau-meta {
+  color: #bbb529;
+}
+
+.satzbau-string,
+.satzbau-attribute,
+.satzbau-addition {
+  color: #6A8759;
+}
+
+.satzbau-section,
+.satzbau-title,
+.satzbau-type {
+  color: #ffc66d;
+}
+
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #e8bf6a;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

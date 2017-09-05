@@ -1,0 +1,60 @@
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  color: #fff;
+}
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #777;
+}
+
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-regexp,
+.satzbau-meta,
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-params,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-link,
+.satzbau-deletion {
+  color: #ab875d;
+}
+
+.satzbau-section,
+.satzbau-title,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-type,
+.satzbau-attribute {
+  color: #9b869b;
+}
+
+.satzbau-string,
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-addition {
+  color: #8f9c6c;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

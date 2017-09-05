@@ -1,0 +1,85 @@
+/*
+
+Style with support for rainbow parens
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #474949;
+  color: #d1d9e1;
+}
+
+
+.satzbau-comment,
+.satzbau-quote {
+  color: #969896;
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-addition {
+  color: #cc99cc;
+}
+
+.satzbau-number,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo {
+  color: #f99157;
+}
+
+.satzbau-string,
+.satzbau-doctag,
+.satzbau-regexp {
+  color: #8abeb7;
+}
+
+.satzbau-title,
+.satzbau-name,
+.satzbau-section,
+.satzbau-built_in {
+  color: #b5bd68;
+}
+
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-selector-id,
+.satzbau-class .hljs-title {
+   color: #ffcc66;
+}
+
+.satzbau-section,
+.satzbau-name,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-subst,
+.satzbau-meta,
+.satzbau-link {
+  color: #f99157;
+}
+
+.satzbau-deletion {
+  color: #dc322f;
+}
+
+.satzbau-formula {
+  background: #eee8d5;
+}
+
+.satzbau-attr,
+.satzbau-attribute {
+  color: #81a2be;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

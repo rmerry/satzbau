@@ -1,0 +1,68 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-variable {
+  color: #008000;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-built_in,
+.satzbau-name,
+.satzbau-tag {
+  color: #00f;
+}
+
+.satzbau-string,
+.satzbau-title,
+.satzbau-section,
+.satzbau-attribute,
+.satzbau-literal,
+.satzbau-template-tag,
+.satzbau-template-variable,
+.satzbau-type,
+.satzbau-addition {
+  color: #a31515;
+}
+
+.satzbau-deletion,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-meta {
+  color: #2b91af;
+}
+
+.satzbau-doctag {
+  color: #808080;
+}
+
+.satzbau-attr {
+  color: #f00;
+}
+
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-link {
+  color: #00b0e8;
+}
+
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

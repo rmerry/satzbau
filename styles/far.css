@@ -1,0 +1,71 @@
+/*
+
+FAR Style (c) MajestiC <majestic2k@gmail.com>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000080;
+}
+
+.satzbau,
+.satzbau-subst {
+  color: #0ff;
+}
+
+.satzbau-string,
+.satzbau-attribute,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-template-tag,
+.satzbau-template-variable,
+.satzbau-addition {
+  color: #ff0;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-section,
+.satzbau-type,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-variable {
+  color: #fff;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-doctag,
+.satzbau-deletion {
+  color: #888;
+}
+
+.satzbau-number,
+.satzbau-regexp,
+.satzbau-literal,
+.satzbau-link {
+  color: #0f0;
+}
+
+.satzbau-meta {
+  color: #008080;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-title,
+.satzbau-section,
+.satzbau-name,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}

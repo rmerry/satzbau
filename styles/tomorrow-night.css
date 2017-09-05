@@ -1,0 +1,75 @@
+/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class,
+.satzbau-regexp,
+.satzbau-deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+.satzbau-number,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params,
+.satzbau-meta,
+.satzbau-link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+.satzbau-attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #b294bb;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

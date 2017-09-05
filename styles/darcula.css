@@ -1,0 +1,77 @@
+/*
+
+Darcula color scheme from the JetBrains family of IDEs
+
+*/
+
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2b2b2b;
+}
+
+.satzbau {
+  color: #bababa;
+}
+
+.satzbau-strong,
+.satzbau-emphasis {
+  color: #a8a8a2;
+}
+
+.satzbau-bullet,
+.satzbau-quote,
+.satzbau-link,
+.satzbau-number,
+.satzbau-regexp,
+.satzbau-literal {
+  color: #6896ba;
+}
+
+.satzbau-code,
+.satzbau-selector-class {
+  color: #a6e22e;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-section,
+.satzbau-attribute,
+.satzbau-name,
+.satzbau-variable {
+  color: #cb7832;
+}
+
+.satzbau-params {
+  color: #b9b9b9;
+}
+
+.satzbau-string {
+  color: #6a8759;
+}
+
+.satzbau-subst,
+.satzbau-type,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-symbol,
+.satzbau-selector-id,
+.satzbau-selector-attr,
+.satzbau-selector-pseudo,
+.satzbau-template-tag,
+.satzbau-template-variable,
+.satzbau-addition {
+  color: #e0c46c;
+}
+
+.satzbau-comment,
+.satzbau-deletion,
+.satzbau-meta {
+  color: #7f7f7f;
+}

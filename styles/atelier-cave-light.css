@@ -1,0 +1,85 @@
+/* Base16 Atelier Cave Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.satzbau-comment,
+.satzbau-quote {
+  color: #655f6d;
+}
+
+/* Atelier-Cave Red */
+.satzbau-variable,
+.satzbau-template-variable,
+.satzbau-attribute,
+.satzbau-tag,
+.satzbau-name,
+.satzbau-regexp,
+.satzbau-link,
+.satzbau-name,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-selector-class {
+  color: #be4678;
+}
+
+/* Atelier-Cave Orange */
+.satzbau-number,
+.satzbau-meta,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-literal,
+.satzbau-type,
+.satzbau-params {
+  color: #aa573c;
+}
+
+/* Atelier-Cave Green */
+.satzbau-string,
+.satzbau-symbol,
+.satzbau-bullet {
+  color: #2a9292;
+}
+
+/* Atelier-Cave Blue */
+.satzbau-title,
+.satzbau-section {
+  color: #576ddb;
+}
+
+/* Atelier-Cave Purple */
+.satzbau-keyword,
+.satzbau-selector-tag {
+  color: #955ae7;
+}
+
+.satzbau-deletion,
+.satzbau-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+
+.satzbau-deletion {
+  background-color: #be4678;
+}
+
+.satzbau-addition {
+  background-color: #2a9292;
+}
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  background: #efecf4;
+  color: #585260;
+  padding: 0.5em;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
+
+.satzbau-strong {
+  font-weight: bold;
+}

@@ -1,0 +1,72 @@
+/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.satzbau {
+  display: block;
+  overflow-x: auto;
+  padding: 15px 0.5em 0.5em 30px;
+  font-size: 11px;
+  line-height:16px;
+}
+
+pre{
+  background:#f6f6ae url(./school-book.png);
+  border-top: solid 2px #d2e8b9;
+  border-bottom: solid 1px #d2e8b9;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.satzbau,
+.satzbau-subst {
+  color: #3e5915;
+}
+
+.satzbau-string,
+.satzbau-title,
+.satzbau-section,
+.satzbau-type,
+.satzbau-symbol,
+.satzbau-bullet,
+.satzbau-attribute,
+.satzbau-built_in,
+.satzbau-builtin-name,
+.satzbau-addition,
+.satzbau-variable,
+.satzbau-template-tag,
+.satzbau-template-variable,
+.satzbau-link {
+  color: #2c009f;
+}
+
+.satzbau-comment,
+.satzbau-quote,
+.satzbau-deletion,
+.satzbau-meta {
+  color: #e60415;
+}
+
+.satzbau-keyword,
+.satzbau-selector-tag,
+.satzbau-literal,
+.satzbau-doctag,
+.satzbau-title,
+.satzbau-section,
+.satzbau-type,
+.satzbau-name,
+.satzbau-selector-id,
+.satzbau-strong {
+  font-weight: bold;
+}
+
+.satzbau-emphasis {
+  font-style: italic;
+}
